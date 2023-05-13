@@ -1,17 +1,23 @@
 # EC2_With_ShadowSocks（基于AWS_EC2搭建SS服务）
 
-[购买云服务](#购买云服务)
+- [购买云服务](#购买云服务)
 
-[服务器端配置](#服务器端配置)
+- [服务器端配置](#服务器端配置)
+  - [远程登录](#远程登录)
+  - [环境配置](#环境配置)
+    - [软件安装与更新](#软件安装与更新)
+    - [配置shadowsocks](#配置shadowsocks)
+  - [调用服务](#调用shadowsocks服务)
+  - [配置安全组](#配置安全组)
 
-[常见错误处理](#常见错误处理)
+- [常见错误处理](#常见错误处理)
 
 # 购买云服务
 
 ![image](https://github.com/Beenraven/EC2_With_ShadowSocks/assets/129687108/b04c6245-005f-41f3-bb7f-92fe9295179f)
 
 # 服务器端配置
-__1、远程登录__
+## 远程登录
 
 常用的主要是两种
 
@@ -25,7 +31,8 @@ __1、远程登录__
 
 
 
-__2、软件安装与更新__
+## 环境配置
+### 软件安装与更新
 
 >- python-pip
 >- 更新pip版本
@@ -33,26 +40,26 @@ __2、软件安装与更新__
 
 
 
-__2.1、安装python-pip__
+__安装python-pip__
 
 	yum -y install python-pip
 >> pip 是 Python 的包管理器。这意味着它是一个工具，允许你安装和管理不属于标准库的其他库和依赖。
 
-__2.2、更新pip版本__
+__更新pip版本__
 
 	pip install --upgrade pip
 
-__2.3、安装shadowsocks__
+__安装shadowsocks__
 
 	pip install shadowsocks
 
 
 
-__3、配置shadowsocks__
+### 配置shadowsocks
 >-ss配置文件编辑
 >-ss启动脚本编辑
 
-__3.1、SS配置文件编辑__	
+__shadowsocks配置文件编辑__	
 
 	vim /etc/shadowsocks.json  
 
@@ -100,7 +107,7 @@ __3.1、SS配置文件编辑__
 >- workers worker数量，如果不理解含义请不要改（这个只在Unix和Linux下有用）
 
 
-__3.2、SS启动脚本编辑__
+__shadowsocks启动脚本编辑__
 
 	vim /etc/systemd/system/shadowsocks.service
 
@@ -118,7 +125,7 @@ __3.2、SS启动脚本编辑__
 
 
 
-__4、启动shadowsocks服务__
+## 调用shadowsocks服务
 
 停止服务
 
@@ -135,7 +142,7 @@ __4、启动shadowsocks服务__
 
 
 
-__5、配置安全组__
+## 配置安全组
 
 __通过配置安全组，用户可以通过指定的ip/端口号访问服务器__
 
