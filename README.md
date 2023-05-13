@@ -189,6 +189,7 @@ __解决方案__
 
 
 __2、OSError: [Errno 98] Address already in use__
+
 错误截图
 ![image](https://github.com/Beenraven/EC2_With_ShadowSocks/assets/129687108/6a5b39cb-1a83-45c8-bcb3-a02ac2a9d319)
 ***shoadowsocks配置的端口号被占用**
