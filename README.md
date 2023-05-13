@@ -19,6 +19,8 @@
 # 服务器端配置
 ## 远程登录
 
+![1683969003681](https://github.com/Beenraven/EC2_With_ShadowSocks/assets/129687108/b97112a7-2000-4124-b790-174db79e1216)
+
 常用的主要是两种
 
 	1、通过实例会话(EC2 Instance Connect)
