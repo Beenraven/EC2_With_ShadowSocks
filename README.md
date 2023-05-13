@@ -1,5 +1,4 @@
-# EC2_With_ShadowSocks
-基于AWS_EC2搭建SS服务
+# EC2_With_ShadowSocks（基于AWS_EC2搭建SS服务）
 
 [购买云服务](#购买云服务)
 
