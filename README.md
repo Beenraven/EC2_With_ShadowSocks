@@ -1,0 +1,2 @@
+# EC2_With_ShadowSocks
+基于AWS_EC2搭建SS服务
