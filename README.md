@@ -9,7 +9,7 @@
     - [配置shadowsocks](#配置shadowsocks)
   - [调用服务](#调用shadowsocks服务)
   - [配置安全组](#配置安全组)
-
+- [客户端配置](#客户端配置)
 - [常见错误处理](#常见错误处理)
 
 # 购买云服务
@@ -56,8 +56,9 @@ __安装shadowsocks__
 
 
 ### 配置shadowsocks
->-ss配置文件编辑
->-ss启动脚本编辑
+>- shadowsocks配置文件编辑
+>
+>- shadowsocks启动脚本编辑
 
 __shadowsocks配置文件编辑__	
 
@@ -150,7 +151,18 @@ __通过配置安全组，用户可以通过指定的ip/端口号访问服务器
 ![image](https://github.com/Beenraven/EC2_With_ShadowSocks/assets/129687108/00341baa-0e74-4d6d-abe4-21cbfe3359d7)
 
 
+# 客户端配置
+__配置信息参考服务器配置的文件```/etc/shadowsocks.json```__
+__下载地址:__
 
+	Wins: https://github.com/shadowsocks/shadowsocks-windows/releases
+	
+	MAC: https://github.com/shadowsocks/ShadowsocksX-NG/releases
+
+	Android： https://github.com/shadowsocks/shadowsocks-android/releases
+___
+
+	
 
 # 常见错误处理
 >- undefined symbol: EVP_CIPHER_CTX_cleanup
