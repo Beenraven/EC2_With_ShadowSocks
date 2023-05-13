@@ -1,8 +1,25 @@
 # EC2_With_ShadowSocks
 基于AWS_EC2搭建SS服务
 
-![image](https://github.com/Beenraven/EC2_With_ShadowSocks/assets/129687108/b04c6245-005f-41f3-bb7f-92fe9295179f)
+[服务器端配置][1]
+[服务器端配置][2]
 
+# 购买云服务
+
+[1]: <![image](https://github.com/Beenraven/EC2_With_ShadowSocks/assets/129687108/b04c6245-005f-41f3-bb7f-92fe9295179f)>
+
+
+
+# 服务器端配置
+### 1、远程登录
+[2]: 常用的主要是两种
+	1、通过实例会话(EC2 Instance Connect)
+	2、通过SSH客户端(Wins对应命令提示端，Mac对应Terminate)
+登录成功如图所示
+![image](https://github.com/Beenraven/EC2_With_ShadowSocks/assets/129687108/1459f031-6816-47df-bf20-99ba5f1ddab3)
+### 2、安装python-pip
+> pip 是 Python 的包管理器。这意味着它是一个工具，允许你安装和管理不属于标准库的其他库和依赖。
+> 
 yum -y install python-pip
 
 pip install --upgrade pip
