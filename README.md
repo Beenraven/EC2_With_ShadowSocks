@@ -158,11 +158,11 @@ __配置信息参考服务器配置的文件```/etc/shadowsocks.json```__
 
 __下载地址:__
 
-	Wins: <https://github.com/shadowsocks/shadowsocks-windows/releases>
+Wins: https://github.com/shadowsocks/shadowsocks-windows/releases
 	
-	MAC: <https://github.com/shadowsocks/ShadowsocksX-NG/releases>
+MAC: https://github.com/shadowsocks/ShadowsocksX-NG/releases
 
-	Android： <https://github.com/shadowsocks/shadowsocks-android/releases>
+Android： https://github.com/shadowsocks/shadowsocks-android/releases
 ___
 
 	
